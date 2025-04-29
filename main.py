@@ -89,7 +89,7 @@ print('wait', time.time() - start, 'seconds')
 # %%
 # Training
 early_stopping = EarlyStopping(monitor='loss', patience=25)
-saveWeight = ModelCheckpoint(filepath'./home/wireless/swarnava' + 'AUD_' + str(k) + 'user_' + str(dv) + 'dv_' + str(snr) + 'snr_' + '.h5',
+saveWeight = ModelCheckpoint(filepath='./home/wireless/swarnava' + 'AUD_' + str(k) + 'user_' + str(dv) + 'dv_' + str(snr) + 'snr_' + '.h5',
                               monitor='loss',
                               # verbose=1,
                               save_best_only=True,
